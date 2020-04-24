@@ -18,7 +18,7 @@ from model_utils import *
 
 # create toy data with categorical, continous and text data
 train_df = pd.DataFrame({'cat1' : ['1','2','1','3','4'], 'cont1' : [123,31,43,12,32],'cont2' : [12,145,55,12,2],
-                      'text':['this it first','this it second','this is third','this it second','this is one'] ,'y' : ['one','two','three','two','one']})
+                      'text':['this it first','this it second','this is third','this it second','this is first'] ,'y' : ['one','two','three','two','one']})
 
 test_df = pd.DataFrame({'cat1' : ['1','4'], 'cont1' : [100,20],'cont2' : [52, 13],
                         'text':['this it first','this is first'] ,'y' : ['one','one']})
